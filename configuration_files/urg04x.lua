@@ -32,4 +32,7 @@ options = {
 
 MAP_BUILDER.use_trajectory_builder_2d = true
 
+TRAJECTORY_BUILDER_2D.laser_min_range = 0.02
+TRAJECTORY_BUILDER_2D.laser_max_range = 5.6
+
 return options
